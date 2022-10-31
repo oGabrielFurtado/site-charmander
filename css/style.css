@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(241, 86, 30);
+}
+
+#cabecalho {
+    background-color: rgb(109, 211, 8);
+    text-align: right;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav li:hover{
+    transition: 1s;
+    text-shadow: 3px -3px 5px rgb(2, 92, 2);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#conteudo {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: gray;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.178);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    float: left;
+}
+
+p {
+    text-indent: 15px;
+    text-align: justify;
+    font-size: 14pt;
+    line-height: 1.5;
+}
+
+.voltar {
+    text-align: right;
+}
+
+#rodape {
+    background-color: rgb(185, 185, 8);
+    height: 50px;
+}
+
+#rodape-texto {
+    text-align: center;
+}
